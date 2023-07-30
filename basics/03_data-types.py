@@ -23,7 +23,7 @@ print( "num_a is of type ", type(num_a) )
 # Giving examples of the different types by assign values to them
 ######################################################################
 
-type_str        = "Appleas and Bananas"
+type_str        = "Apples and Bananas"
 type_int        = 2000
 type_float      = 3.1415
 type_complex    = 1j
