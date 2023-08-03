@@ -145,3 +145,23 @@ print( "from tuple => list( (20,'Twenty','XX') ): ", list( (20,'Twenty','XX') ) 
 print( "from dict => list({ 'f_name':'Jimmy', 'l_name':'Neutron' }): ", list({ 'f_name':'Jimmy', 'l_name':'Neutron' }) )
 # set
 print( "from set => list({ 10, 'Ten', 'X' }): ", list({ 10, 'Ten', 'X' }) )
+
+######################################################################
+# tuple( iterable )
+# iterable (optional) - an object that could be a sequence or
+# collection or any iterator object
+# e.g strings, lists, range, dictionary
+######################################################################
+
+# title the group
+title = 'tuple()'
+print( "\n", title, "\n", generateTitleUnderline(title) )
+
+# string
+print( "from string => tuple('One Piece'): ", tuple('One Piece') )
+# list
+print( "from list => tuple([20, 'Twenty']): ", tuple([20, 'Twenty']) )
+# range
+print( "from range => tuple(range(0,10,2)): ", tuple(range(0,10,2)) )
+# dictionary
+print( "from dict => tuple({ 'first_name': 'jimmy', 'last_name': 'neutron'}): ", tuple({ 'first_name': 'jimmy', 'last_name': 'neutron'}) )
